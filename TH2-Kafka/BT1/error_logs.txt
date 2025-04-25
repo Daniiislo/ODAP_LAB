@@ -1,0 +1,4 @@
+2025-04-25 18:18:13,959 - ERROR - order-service - Order 1396 could not be fulfilled
+2025-04-25 18:18:48,074 - ERROR - user-service - Payment processing error for transaction 4217
+2025-04-25 18:19:00,724 - ERROR - user-service - Payment processing error for transaction 1658
+2025-04-25 18:21:25,639 - ERROR - payment-service - Service 2803 unavailable

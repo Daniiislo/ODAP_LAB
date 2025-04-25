@@ -1,0 +1,13 @@
+# ignore .zip, .rar file
+*.zip
+*.rar
+
+# ignore .tar, .gz file
+*.tar
+*.gz
+
+# ignore .vs
+.vs/
+
+# ignore .env
+.env
