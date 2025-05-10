@@ -2,7 +2,7 @@
 
 `hdfs dfs -mkdir -p /logs/2025/03`
 
-Tham số `-p` là viết tắt của `parents`. Khi sử dụng tham só này, HDFS sẽ tự động tạo các thư mục cha cần thiết nếu chúng chưa tồn tại.
+Tham số `-p` là viết tắt của `parents`. Khi sử dụng tham số này, HDFS sẽ tự động tạo các thư mục cha cần thiết nếu chúng chưa tồn tại.
 
 # 2. Upload các file log giả lập vào đó.
 
@@ -11,6 +11,7 @@ Tham số `-p` là viết tắt của `parents`. Khi sử dụng tham só này, 
 # 3. Kiểm tra dung lượng đã sử dụng trên HDFS.
 
 `hdfs dfs -du -h /logs/2025/03`
+
 Tham số `-du` là viết tắt của `disk usage` giúp hiển thị dung lượng sử dụng.
 
 Tham số `-h` là viết tắt của `human-readable`, nghĩa là dung lượng theo định dạng dễ đọc hơn (KB, MB, GB...) thay vì số byte thuần túy.
