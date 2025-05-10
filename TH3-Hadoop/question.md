@@ -1,6 +1,7 @@
 # 1.Tạo folder /logs/2025/03 trên HDFS.
 
 `hdfs dfs -mkdir -p /logs/2025/03`
+
 Tham số `-p` là viết tắt của `parents`. Khi sử dụng tham só này, HDFS sẽ tự động tạo các thư mục cha cần thiết nếu chúng chưa tồn tại.
 
 # 2. Upload các file log giả lập vào đó.
